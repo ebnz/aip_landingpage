@@ -1,80 +1,62 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2026-06-08
 type: landing
-
 sections:
-  - block: hero
-    content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
+      title: "Artificial Intelligence for Programming (AIP)"
+      subtitle: "Prof. Dr. Artur Andrzejak <br>
+      Institute of Computer Science <br>
+      Heidelberg University"
+      text: "
+      ### Overview of the research group
+
+
+      Welcome at the web pages of the research group Artificial Intelligence
+      for Programming (AIP), a part of the Institute of Computer Science of
+      Heidelberg University.
+
+
+      Our research and teaching activities focus on the challenges of software
+      development and maintenance, in particular efficient programming and
+      software reliability. We apply methods from artificial intelligence and
+      machine learning and combine them with classical software engineering
+      techniques including static and dynamic code analysis, code
+      transformations and code generation.
+
+
+      Our research interests and currently active projects are described by
+      the following topics:
+
+
+      <p><strong>AI-Supported Programming</strong></p>
+      <ul>
+        <li>Model-based code translation and transformation</li>
+        <li>Program debugging and repair with Large Language Models</li>
+        <li>Code recommenders</li>
+        <li>AI-based coding assistants</li>
+      </ul>
+
+
+      <p><strong>Code Generation and DSLs</strong></p>
+        <ul>
+          <li>Accelerated development of Domain Specific Languages (DSLs)</li>
+          <li>Integrating DSLs and general-purpose programming languages</li>
+          <li>Low code tools for data science</li>
+        </ul>
+
+      <p><strong>Software Reliability</strong></p>
+        <ul>
+          <li>Testing of large-scale software systems</li>
+          <li>Detection and isolation of latent and security-critical software defects</li>
+          <li>Diagnosis of configuration errors</li>
+          <li>Performance optimization</li>
+        </ul>
+      "
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---
