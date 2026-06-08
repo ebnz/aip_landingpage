@@ -6,8 +6,7 @@ draft: false
 
 ## DSL for Pandas and Spark
 
-**Quick overview**
-
+**Quick overview**\
 Every statement in this DSL starts with the prefix ***\##***. A DSL line
 is treated as a Python comment, allowing the DSL to be integrated with
 regular code. To see which operations are available at the current
@@ -22,8 +21,7 @@ paper](http://pvs16.ifi.uni-heidelberg.de/fileadmin/papers/2019/Agile_Constructi
 > are published on the [test cases
 > repository](https://gitlab.com/pvs-hd/plugins/nldsl-vscode-test-cases).
 
-**Selecting target framework**
-
+**Selecting target framework**\
 You can customize for which framework the Python code will be generated
 by selecting between Pandas, Apache Spark, PyTorch, Tensorflow or a self
 defined DSL. In order to do this, you need to insert a code line
@@ -74,8 +72,7 @@ to the code recommendation option "Help on current command".
 
 ![](https://dev.azure.com/pvshd/f0658673-33ac-42b7-8059-a4855c2f9b94/_apis/git/repositories/bb33bb65-7c97-4162-b397-347bc9e69acf/items?path=/images/0.5.0/HelpOnCurrentCommand.PNG&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=comm-handl-easy-dsls&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
-**Inspecting and exploring data**
-
+**Inspecting and exploring data**\
 The DSL comes embedded with several functions that enable easy data
 table inspection. For example:
 
@@ -92,15 +89,13 @@ table inspection. For example:
 
   ![grouping-sorting-pandas](https://dev.azure.com/pvshd/f0658673-33ac-42b7-8059-a4855c2f9b94/_apis/git/repositories/bb33bb65-7c97-4162-b397-347bc9e69acf/items?path=/images/0.5.0/NonTrivialOperation.PNG&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=comm-handl-easy-dsls&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
-**Data preprocessing**
-
+**Data preprocessing**\
 The DSL also contains a set of operations for commonly used data
 manipulation such as the append column transformation below.
 
 ![append-column-pandas](https://dev.azure.com/pvshd/f0658673-33ac-42b7-8059-a4855c2f9b94/_apis/git/repositories/bb33bb65-7c97-4162-b397-347bc9e69acf/items?path=%2Fimages%2F0.1.6%2Fappend-column-pandas.JPG&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=TypeProvider&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
-**Type provider feature**
-
+**Type provider feature**\
 NLDSL can suggest column names which are fetched from a CSV file if it
 has header information included. In order to use this feature, you need
 to set source of information for column names recommendation first.
@@ -120,8 +115,7 @@ dataframe 'data'
 
 ![type-completion-csv](https://dev.azure.com/pvshd/f0658673-33ac-42b7-8059-a4855c2f9b94/_apis/git/repositories/bb33bb65-7c97-4162-b397-347bc9e69acf/items?path=%2Fimages%2F0.1.6%2Ftype-completion-csv.gif&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=TypeProvider&resolveLfs=true&%24format=octetStream&api-version=5.0)
 
-**Synchronization feature**
-
+**Synchronization feature**\
 Regardless of the programming language used, DSL lines are comments that
 are not executed. The translation of DSL lines, the code lines are
 executed. These lines can be edited independently and thus cause them to
@@ -199,8 +193,7 @@ in the list now.
 > modifying the Excel or tx file), the previously generated files of the
 > DSL will be overridden
 
-**Use the new DSL**
-
+**Use the new DSL**\
 Open a source file and use the target code recommendation feature. Now
 you can see your new DSL in the target code recommendations list.
 
