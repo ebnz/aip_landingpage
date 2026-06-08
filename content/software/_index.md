@@ -1,5 +1,5 @@
 ---
-title: "Software - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Software"
 date: 2026-06-08
 list_children: false
 ---

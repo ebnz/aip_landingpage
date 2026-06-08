@@ -1,5 +1,5 @@
 ---
-title: "Download - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Download"
 date: 2026-06-08
 draft: false
 ---

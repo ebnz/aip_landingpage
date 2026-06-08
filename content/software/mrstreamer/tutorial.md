@@ -1,5 +1,5 @@
 ---
-title: "Tutorial - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Tutorial"
 date: 2026-06-08
 draft: false
 ---

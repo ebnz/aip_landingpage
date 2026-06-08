@@ -1,5 +1,5 @@
 ---
-title: "Custom DSL creation - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Custom DSL creation"
 date: 2026-06-08
 draft: false
 ---

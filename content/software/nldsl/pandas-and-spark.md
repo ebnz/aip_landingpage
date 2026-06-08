@@ -1,5 +1,5 @@
 ---
-title: "Pandas and Spark - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Pandas and Spark"
 date: 2026-06-08
 draft: false
 ---

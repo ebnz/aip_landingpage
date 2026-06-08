@@ -1,5 +1,5 @@
 ---
-title: "Installation - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Installation"
 date: 2026-06-08
 draft: false
 ---

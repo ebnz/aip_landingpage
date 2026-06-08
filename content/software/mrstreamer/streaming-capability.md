@@ -1,5 +1,5 @@
 ---
-title: "Streaming Capability - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "Streaming Capability"
 date: 2026-06-08
 draft: false
 ---

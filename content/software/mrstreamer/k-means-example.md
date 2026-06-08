@@ -1,5 +1,5 @@
 ---
-title: "K-Means Example - Artificial Intelligence for Programming (AIP) at Heidelberg University"
+title: "K-Means Example"
 date: 2026-06-08
 draft: false
 ---
